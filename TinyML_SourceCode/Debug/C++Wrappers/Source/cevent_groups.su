@@ -1,0 +1,16 @@
+exception.h:63:5:std::exception::exception()	16	static
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+event_groups.hpp:73:9:cpp_freertos::EventGroupCreateException::EventGroupCreateException()	16	static
+event_groups.hpp:91:29:virtual const char* cpp_freertos::EventGroupCreateException::what() const	16	static
+cevent_groups.cpp:44:1:cpp_freertos::EventGroup::EventGroup()	24	static
+cevent_groups.cpp:77:1:cpp_freertos::EventGroup::~EventGroup()	16	static
+cevent_groups.cpp:77:1:virtual cpp_freertos::EventGroup::~EventGroup()	16	static
+cevent_groups.cpp:83:13:EventBits_t cpp_freertos::EventGroup::Sync(EventBits_t, EventBits_t, TickType_t)	24	static
+cevent_groups.cpp:96:13:EventBits_t cpp_freertos::EventGroup::WaitBits(EventBits_t, bool, bool, TickType_t)	32	static
+cevent_groups.cpp:110:13:EventBits_t cpp_freertos::EventGroup::ClearBits(EventBits_t)	16	static
+cevent_groups.cpp:116:12:BaseType_t cpp_freertos::EventGroup::ClearBitsFromISR(EventBits_t)	16	static
+cevent_groups.cpp:122:13:EventBits_t cpp_freertos::EventGroup::GetBits()	16	static
+cevent_groups.cpp:128:13:EventBits_t cpp_freertos::EventGroup::GetBitsFromISR()	16	static
+cevent_groups.cpp:134:13:EventBits_t cpp_freertos::EventGroup::SetBits(EventBits_t)	16	static
+event_groups.hpp:67:7:cpp_freertos::EventGroupCreateException::~EventGroupCreateException()	16	static
+event_groups.hpp:67:7:virtual cpp_freertos::EventGroupCreateException::~EventGroupCreateException()	16	static

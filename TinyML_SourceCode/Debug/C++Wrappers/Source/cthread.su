@@ -1,0 +1,15 @@
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+cthread.cpp:56:1:cpp_freertos::Thread::Thread(std::string, uint16_t, UBaseType_t)	24	static
+cthread.cpp:70:1:cpp_freertos::Thread::Thread(uint16_t, UBaseType_t)	40	static
+cthread.cpp:123:6:bool cpp_freertos::Thread::Start()	40	static
+cthread.cpp:179:6:virtual void cpp_freertos::Thread::Cleanup()	16	static
+cthread.cpp:184:1:cpp_freertos::Thread::~Thread()	16	static
+cthread.cpp:184:1:virtual cpp_freertos::Thread::~Thread()	16	static
+cthread.cpp:201:6:static void cpp_freertos::Thread::TaskFunctionAdapter(void*)	24	static
+cthread.cpp:222:6:void cpp_freertos::Thread::DelayUntil(TickType_t)	16	static
+cthread.cpp:233:6:void cpp_freertos::Thread::ResetDelayUntil()	16	static
+mutex.hpp:169:7:cpp_freertos::MutexStandard::~MutexStandard()	16	static
+mutex.hpp:169:7:virtual cpp_freertos::MutexStandard::~MutexStandard()	16	static
+cthread.cpp:236:1:void __static_initialization_and_destruction_0(int, int)	16	static
+cthread.cpp:236:1:cpp)	8	static
+cthread.cpp:236:1:cpp)	8	static

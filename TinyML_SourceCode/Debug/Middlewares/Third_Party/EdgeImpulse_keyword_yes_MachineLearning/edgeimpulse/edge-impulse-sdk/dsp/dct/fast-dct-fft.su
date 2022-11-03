@@ -1,0 +1,13 @@
+cmath:184:3:constexpr float std::cos(float)	16	static
+cmath:425:3:constexpr float std::sin(float)	16	static
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+numpy_types.h:87:5:ei::ei_matrix::ei_matrix(uint32_t, uint32_t, float*)	24	static
+numpy_types.h:127:5:ei::ei_matrix::~ei_matrix()	16	static
+numpy_types.h:529:32:void std::__throw_bad_function_call()	4	static
+numpy_types.h:530:32:void std::__throw_length_error(const char*)	16	static
+ei_aligned_malloc.h:55:32:void* {anonymous}::ei_aligned_calloc(size_t, size_t)	32	static
+ei_aligned_malloc.h:93:30:void {anonymous}::ei_aligned_free(void*)	24	static
+numpy.hpp:1395:16:static int ei::numpy::rfft(const float*, size_t, ei::fft_complex_t*, size_t, size_t)	112	static
+numpy.hpp:1943:16:static int ei::numpy::software_rfft(float*, ei::fft_complex_t*, size_t, size_t)	40	static
+numpy.hpp:2328:16:static int ei::numpy::cmsis_rfft_init_f32(arm_rfft_fast_instance_f32*, size_t)	32	static
+fast-dct-fft.cpp:37:5:int ei::dct::transform(float*, size_t)	88	static

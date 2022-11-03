@@ -1,0 +1,14 @@
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+cworkqueue.cpp:46:1:cpp_freertos::WorkItem::WorkItem(bool)	16	static
+cworkqueue.cpp:52:1:cpp_freertos::WorkItem::~WorkItem()	16	static
+cworkqueue.cpp:52:1:virtual cpp_freertos::WorkItem::~WorkItem()	16	static
+cworkqueue.cpp:57:6:bool cpp_freertos::WorkItem::FreeAfterRun()	16	static
+cworkqueue.cpp:63:1:cpp_freertos::WorkQueue::WorkQueue(const char*, uint16_t, UBaseType_t, UBaseType_t)	40	static
+cworkqueue.cpp:82:1:cpp_freertos::WorkQueue::WorkQueue(uint16_t, UBaseType_t, UBaseType_t)	32	static
+cworkqueue.cpp:102:1:cpp_freertos::WorkQueue::~WorkQueue()	24	static
+cworkqueue.cpp:137:6:bool cpp_freertos::WorkQueue::QueueWork(cpp_freertos::WorkItem*)	16	static
+cworkqueue.cpp:143:1:cpp_freertos::WorkQueue::CWorkerThread::CWorkerThread(const char*, uint16_t, UBaseType_t, cpp_freertos::WorkQueue*)	64	static
+cworkqueue.cpp:152:1:cpp_freertos::WorkQueue::CWorkerThread::CWorkerThread(uint16_t, UBaseType_t, cpp_freertos::WorkQueue*)	24	static
+cworkqueue.cpp:160:1:cpp_freertos::WorkQueue::CWorkerThread::~CWorkerThread()	16	static
+cworkqueue.cpp:160:1:virtual cpp_freertos::WorkQueue::CWorkerThread::~CWorkerThread()	16	static
+cworkqueue.cpp:165:6:virtual void cpp_freertos::WorkQueue::CWorkerThread::Run()	24	static

@@ -1,0 +1,20 @@
+exception.h:63:5:std::exception::exception()	16	static
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+semaphore.hpp:75:9:cpp_freertos::SemaphoreCreateException::SemaphoreCreateException()	16	static
+semaphore.hpp:83:18:cpp_freertos::SemaphoreCreateException::SemaphoreCreateException(const char*)	16	static
+semaphore.hpp:93:29:virtual const char* cpp_freertos::SemaphoreCreateException::what() const	16	static
+csemaphore.cpp:46:6:bool cpp_freertos::Semaphore::Take(TickType_t)	24	static
+csemaphore.cpp:56:6:bool cpp_freertos::Semaphore::TakeFromISR(BaseType_t*)	24	static
+csemaphore.cpp:66:6:bool cpp_freertos::Semaphore::Give()	24	static
+csemaphore.cpp:76:6:bool cpp_freertos::Semaphore::GiveFromISR(BaseType_t*)	24	static
+csemaphore.cpp:86:1:cpp_freertos::Semaphore::Semaphore()	16	static
+csemaphore.cpp:91:1:cpp_freertos::Semaphore::~Semaphore()	16	static
+csemaphore.cpp:91:1:virtual cpp_freertos::Semaphore::~Semaphore()	16	static
+csemaphore.cpp:97:1:cpp_freertos::BinarySemaphore::BinarySemaphore(bool)	24	static
+csemaphore.cpp:115:1:cpp_freertos::CountingSemaphore::CountingSemaphore(UBaseType_t, UBaseType_t)	32	static
+semaphore.hpp:216:7:cpp_freertos::CountingSemaphore::~CountingSemaphore()	16	static
+semaphore.hpp:216:7:virtual cpp_freertos::CountingSemaphore::~CountingSemaphore()	16	static
+semaphore.hpp:194:7:cpp_freertos::BinarySemaphore::~BinarySemaphore()	16	static
+semaphore.hpp:194:7:virtual cpp_freertos::BinarySemaphore::~BinarySemaphore()	16	static
+semaphore.hpp:69:7:cpp_freertos::SemaphoreCreateException::~SemaphoreCreateException()	16	static
+semaphore.hpp:69:7:virtual cpp_freertos::SemaphoreCreateException::~SemaphoreCreateException()	16	static

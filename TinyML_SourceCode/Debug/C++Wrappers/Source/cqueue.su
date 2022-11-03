@@ -1,0 +1,31 @@
+exception.h:63:5:std::exception::exception()	16	static
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+queue.hpp:75:9:cpp_freertos::QueueCreateException::QueueCreateException()	16	static
+queue.hpp:93:29:virtual const char* cpp_freertos::QueueCreateException::what() const	16	static
+cqueue.cpp:46:1:cpp_freertos::Queue::Queue(UBaseType_t, UBaseType_t)	32	static
+cqueue.cpp:60:1:cpp_freertos::Queue::~Queue()	16	static
+cqueue.cpp:60:1:virtual cpp_freertos::Queue::~Queue()	16	static
+cqueue.cpp:66:6:virtual bool cpp_freertos::Queue::Enqueue(void*)	24	static
+cqueue.cpp:76:6:virtual bool cpp_freertos::Queue::Enqueue(void*, TickType_t)	32	static
+cqueue.cpp:86:6:bool cpp_freertos::Queue::Dequeue(void*, TickType_t)	32	static
+cqueue.cpp:96:6:bool cpp_freertos::Queue::Peek(void*, TickType_t)	32	static
+cqueue.cpp:106:6:virtual bool cpp_freertos::Queue::EnqueueFromISR(void*, BaseType_t*)	32	static
+cqueue.cpp:116:6:bool cpp_freertos::Queue::DequeueFromISR(void*, BaseType_t*)	32	static
+cqueue.cpp:126:6:bool cpp_freertos::Queue::PeekFromISR(void*)	24	static
+cqueue.cpp:136:6:bool cpp_freertos::Queue::IsEmpty()	24	static
+cqueue.cpp:144:6:bool cpp_freertos::Queue::IsFull()	24	static
+cqueue.cpp:152:6:void cpp_freertos::Queue::Flush()	16	static
+cqueue.cpp:158:13:UBaseType_t cpp_freertos::Queue::NumItems()	16	static
+cqueue.cpp:164:13:UBaseType_t cpp_freertos::Queue::NumSpacesLeft()	16	static
+cqueue.cpp:170:1:cpp_freertos::Deque::Deque(UBaseType_t, UBaseType_t)	24	static
+cqueue.cpp:176:6:bool cpp_freertos::Deque::EnqueueToFront(void*, TickType_t)	32	static
+cqueue.cpp:186:6:bool cpp_freertos::Deque::EnqueueToFrontFromISR(void*, BaseType_t*)	32	static
+cqueue.cpp:196:1:cpp_freertos::BinaryQueue::BinaryQueue(UBaseType_t)	16	static
+cqueue.cpp:202:6:virtual bool cpp_freertos::BinaryQueue::Enqueue(void*)	16	static
+cqueue.cpp:209:6:virtual bool cpp_freertos::BinaryQueue::EnqueueFromISR(void*, BaseType_t*)	24	static
+queue.hpp:313:7:cpp_freertos::BinaryQueue::~BinaryQueue()	16	static
+queue.hpp:313:7:virtual cpp_freertos::BinaryQueue::~BinaryQueue()	16	static
+queue.hpp:260:7:cpp_freertos::Deque::~Deque()	16	static
+queue.hpp:260:7:virtual cpp_freertos::Deque::~Deque()	16	static
+queue.hpp:69:7:cpp_freertos::QueueCreateException::~QueueCreateException()	16	static
+queue.hpp:69:7:virtual cpp_freertos::QueueCreateException::~QueueCreateException()	16	static

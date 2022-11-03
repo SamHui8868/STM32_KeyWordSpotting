@@ -1,0 +1,13 @@
+exception.h:63:5:std::exception::exception()	16	static
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+tasklet.hpp:85:18:cpp_freertos::TaskletCreateException::TaskletCreateException(const char*)	16	static
+tasklet.hpp:95:29:virtual const char* cpp_freertos::TaskletCreateException::what() const	16	static
+ctasklet.cpp:46:1:cpp_freertos::Tasklet::Tasklet()	24	static
+ctasklet.cpp:62:1:cpp_freertos::Tasklet::~Tasklet()	16	static
+ctasklet.cpp:62:1:virtual cpp_freertos::Tasklet::~Tasklet()	16	static
+ctasklet.cpp:67:6:void cpp_freertos::Tasklet::CheckForSafeDelete()	16	static
+ctasklet.cpp:74:6:static void cpp_freertos::Tasklet::TaskletAdapterFunction(void*, uint32_t)	24	static
+ctasklet.cpp:82:6:bool cpp_freertos::Tasklet::Schedule(uint32_t, TickType_t)	32	static
+ctasklet.cpp:104:6:bool cpp_freertos::Tasklet::ScheduleFromISR(uint32_t, BaseType_t*)	32	static
+tasklet.hpp:71:7:cpp_freertos::TaskletCreateException::~TaskletCreateException()	16	static
+tasklet.hpp:71:7:virtual cpp_freertos::TaskletCreateException::~TaskletCreateException()	16	static
